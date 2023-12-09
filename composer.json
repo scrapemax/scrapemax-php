@@ -1,0 +1,21 @@
+{
+    "name": "scrapemax/scrapemax-php",
+    "description": "Scrapemax PHP API Client",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scrapemax\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Scrapemax\\Tests\\": "tests/"
+        }
+    }
+}
